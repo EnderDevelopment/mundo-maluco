@@ -1,0 +1,14 @@
+name: MundoMaluco
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: A playful random-events Minecraft game mode.
+commands:
+  mundomal:
+    description: Controls the Mundo Maluco game mode.
+    usage: /mundomal <on|off|status>
+    permission: mundomal.admin
+permissions:
+  mundomal.admin:
+    description: Allows toggling and checking Mundo Maluco.
+    default: op
